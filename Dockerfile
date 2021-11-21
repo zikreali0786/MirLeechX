@@ -18,7 +18,7 @@ RUN wget -q https://github.com/P3TERX/aria2.conf/raw/master/dht.dat -O /usr/src/
 
 CMD ["bash","start.sh"]
 #!/usr/bin/env python3
-# (C) Jigarvarma2005 (Jigar varma)
+# (C) zikreali0786 (zikre ali)
 # coded by noob
 import sys
 import os
