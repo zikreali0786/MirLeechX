@@ -57,3 +57,5 @@ RUN chmod +x aria.sh
 
 CMD ["bash","start.sh"]
 RUN apt-get install mediainfo
+COPY gdtot /usr/local/bin
+RUN chmod +x /usr/local/bin/gdtot
