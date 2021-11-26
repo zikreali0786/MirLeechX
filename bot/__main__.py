@@ -246,4 +246,4 @@ def main():
 app.start()
 main()
 idle()
-self.GdtotCommand = "gdtot"
+self.Gd
