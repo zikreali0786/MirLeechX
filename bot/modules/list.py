@@ -22,7 +22,7 @@ def list_drive(update, context):
     except IndexError:
         sendMessage('Send a search key along with command', context.bot, update)
         
-@new_thread
+
 def gdtot_cloner(update, context):
     if update.message.from_user.username:
         uname = f'@{update.message.from_user.username}'
