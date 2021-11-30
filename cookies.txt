@@ -1,1 +1,0 @@
-{"url":"https://new.gdtot.org/","cookie":"_ga=GA1.2.1884500443.1637998406; crypt=NHNoMGRwQzNVZWlNWHFtaW9MeFN0cWFtOEd3b1VzSW1icmdZb2diWHc0UT0%3D; _gid=GA1.2.605584123.1638258193; PHPSESSID=9e90k4nul2s291soe76fut8ap0; _gat_gtag_UA_130203604_4=1; prefetchAd_3621940=true"}
