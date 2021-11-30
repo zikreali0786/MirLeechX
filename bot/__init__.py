@@ -378,6 +378,11 @@ try:
 except KeyError:
     RECURSIVE_SEARCH = False
 try:
+    GDTOT_COOKIES = getConfig('GDTOT_COOKIES')
+except KeyError:
+    logging.warning('GDTOT_COOKIES not provided!')
+    GDTOT_COOKIES = ""
+try:
     TOKEN_PICKLE_URL = getConfig('TOKEN_PICKLE_URL')
     if len(TOKEN_PICKLE_URL) == 0:
         TOKEN_PICKLE_URL = None
