@@ -113,6 +113,8 @@ help_string_telegraph = f'''<br>
 <br><br>
 <b>/{BotCommands.CloneCommand}</b> [drive_url]: Copy file/folder to Google Drive
 <br><br>
+<b>/{BotCommands.GDTOTCommand}</b> [gdtot_url]: Convert gdtot link into gdrive link
+<br><br>
 <b>/{BotCommands.CountCommand}</b> [drive_url]: Count file/folder of Google Drive Links
 <br><br>
 <b>/{BotCommands.DeleteCommand}</b> [drive_url]: Delete file from Google Drive (Only Owner & Sudo)
@@ -143,8 +145,8 @@ help_string_telegraph = f'''<br>
 '''
 help = Telegraph(access_token=telegraph_token).create_page(
         title='MirLeechX Help',
-        author_name='MirLeechX',
-        author_url='https://github.com/iamLiquidX/MirLeechX',
+        author_name='Jigar Varma',
+        author_url='https://github.com/Jigarvarma2005',
         html_content=help_string_telegraph,
     )["path"]
 
