@@ -33,9 +33,6 @@ def gdtot_cloner(update, context):
     try:
         search = update.message.text.split(' ',maxsplit=1)[1]
         reply = sendMessage('Extracting please wait ....', context.bot, update)
-        if not is_gdtot_link(search):
-            editMessage("GDToT link invalied ....", reply, None)
-            return
         gdrive = GoogleDriveHelper()
         gdtot = GDTOT(search)
         if STOP_DUPLICATE:
